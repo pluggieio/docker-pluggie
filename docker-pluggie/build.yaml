@@ -3,9 +3,9 @@ build_from:
   aarch64: docker.io/library/alpine:3.24
   amd64: docker.io/library/alpine:3.24
 args:
-  CRYPTOGRAPHY_VERSION: 49.0.0
-  CERTBOT_VERSION: 5.7.0
-  ACME_VERSION: 5.7.0
+  CRYPTOGRAPHY_VERSION: 50.0.1
+  CERTBOT_VERSION: 5.8.0
+  ACME_VERSION: 5.8.0
   WIREGUARDTOOLS_VERSION: 0.6.0
   BASHIO_VERSION: 0.16.2
   TEMPIO_VERSION: 2024.11.2
