@@ -3,7 +3,7 @@
 
 ## About
 
-Pluggie (https://pluggie.net/) provides secure Internet access to devices behind NAT, while offering filtering by continents, countries (Geo IP), or IP ranges. It functions as a connector, utilizing Pluggie servers as intermediaries to establish the connection.
+Pluggie (https://pluggie.io/) provides secure Internet access to devices behind NAT, while offering filtering by continents, countries (Geo IP), or IP ranges. It functions as a connector, utilizing Pluggie servers as intermediaries to establish the connection.
 
 This Docker edition runs the same Pluggie connector as a standalone container, suitable for any Docker-capable host.
 
@@ -66,7 +66,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[project]: https://pluggie.net
+[project]: https://pluggie.io
 [hacloud]: https://www.home-assistant.io/cloud
 [wg_addon]: https://github.com/hassio-addons/addon-wireguard
 [wg_addon_contributors]: https://github.com/bigmoby/addon-wireguard-client/graphs/contributors

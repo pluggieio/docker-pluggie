@@ -1,8 +1,8 @@
 {
   "name": "Pluggie Docker",
-  "url": "https://github.com/tiborgres/docker-pluggie",
-  "maintainer": "tiborgres <egresh@pluggie.net>",
+  "url": "https://github.com/pluggieio/docker-pluggie",
+  "maintainer": "Pluggie <support@pluggie.net>",
   "images": {
-    "docker-pluggie": "ghcr.io/tiborgres/docker-pluggie"
+    "docker-pluggie": "ghcr.io/pluggieio/docker-pluggie"
   }
 }

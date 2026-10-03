@@ -101,5 +101,5 @@ Elliptic Curve: secp256r1              # Optional: Curve for ECDSA keys (secp256
 
 ## Support
 
-- Got questions? Visit our website at [https://pluggie.net](https://pluggie.net)
+- Got questions? Visit our website at [https://pluggie.io](https://pluggie.io)
 - Need help? Contact our support team through support@pluggie.net

@@ -180,12 +180,12 @@ ENTRYPOINT ["/init"]
 
 # Docker labels
 LABEL \
-    maintainer="egresh <https://github.com/tiborgres/docker-pluggie>" \
+    maintainer="Pluggie <support@pluggie.net>" \
     org.opencontainers.image.title="Pluggie" \
     org.opencontainers.image.description="Make your device visible! (Docker Edition)" \
     org.opencontainers.image.vendor="Pluggie" \
-    org.opencontainers.image.authors="egresh <https://github.com/tiborgres/docker-pluggie>" \
+    org.opencontainers.image.authors="Pluggie <support@pluggie.net>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
-    org.opencontainers.image.source="https://github.com/tiborgres/docker-pluggie/docker-pluggie" \
-    org.opencontainers.image.documentation="https://github.com/tiborgres/docker-pluggie/README.md"
+    org.opencontainers.image.source="https://github.com/pluggieio/docker-pluggie" \
+    org.opencontainers.image.documentation="https://github.com/pluggieio/docker-pluggie/blob/master/README.md"
