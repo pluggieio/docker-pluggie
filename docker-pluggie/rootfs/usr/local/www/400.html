@@ -208,7 +208,8 @@
                                             </h2>
                                             <div id="haExample" class="accordion-collapse collapse" data-bs-parent="#serverExamples">
                                                 <div class="accordion-body">
-                                                    <p>Add to your <code>configuration.yaml</code>:</p>
+                                                    <p>Home Assistant 2026.8 or newer: open <strong>Settings &rarr; System &rarr; Network &rarr; HTTP server</strong>, turn on <strong>Trust X-Forwarded-For</strong>, add <code>PLUGGIE_IP</code> to <strong>Trusted proxies</strong> and save. Home Assistant restarts; confirm the new settings afterwards, otherwise they are reverted after 5 minutes.</p>
+                                                    <p>Older versions: add to your <code>configuration.yaml</code> and restart Home Assistant:</p>
 <pre class="code-block"><span class="key">http:</span>
   <span class="key">use_x_forwarded_for:</span> <span class="value">true</span>
   <span class="key">trusted_proxies:</span>
