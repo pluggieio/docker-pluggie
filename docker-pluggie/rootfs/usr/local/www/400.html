@@ -168,6 +168,7 @@
 
                                     <h3 class="mb-3">How to fix it</h3>
                                     <p>Configure your target web server to trust connections from the Pluggie container. You need to add the IP address of the Pluggie container to the list of trusted proxies. The exact steps depend on your server software:</p>
+                                    <p>Proxying Home Assistant? <a href="https://pluggie.io/blog/home-assistant-trusted-proxies#docker" target="_blank" rel="noopener">Step-by-step guide</a></p>
 
                                     <div class="accordion mb-4" id="serverExamples">
                                         <div class="accordion-item example-card">
@@ -214,6 +215,7 @@
   <span class="key">use_x_forwarded_for:</span> <span class="value">true</span>
   <span class="key">trusted_proxies:</span>
     <span class="value">- PLUGGIE_IP</span></pre>
+                                                    <p class="mt-2 mb-0"><a href="https://pluggie.io/blog/home-assistant-trusted-proxies#docker" target="_blank" rel="noopener">Step-by-step guide</a></p>
                                                 </div>
                                             </div>
                                         </div>

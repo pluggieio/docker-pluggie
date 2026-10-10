@@ -45,6 +45,19 @@ The short version:
    ([https://my.pluggie.net](https://my.pluggie.net))
 
 
+## Using with Home Assistant
+
+1. Set "Proxied Host" to your Home Assistant URL as seen from the container,
+   for example `http://192.168.1.10:8123`
+2. Let Home Assistant trust the Pluggie container as a reverse proxy:
+   Settings -> System -> Network -> HTTP server, turn on "Trust X-Forwarded-For"
+   and add the container IP address as Home Assistant sees it to "Trusted proxies"
+   (the address is shown in the Home Assistant log message about an untrusted proxy).
+   Older versions: `http:` block in `configuration.yaml`.
+
+Step-by-step guide with troubleshooting: https://pluggie.io/blog/home-assistant-trusted-proxies#docker
+
+
 ## Configuration
 
 ### Required Configuration

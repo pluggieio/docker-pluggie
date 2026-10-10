@@ -1,3 +1,9 @@
+## v0.7.1
+
+- 400 page and admin UI link to the step-by-step trusted proxy guide (Home Assistant)
+- docs: "Using with Home Assistant" section
+
+
 ## v0.7.0
 
 - the proxied host (e.g. Home Assistant) now sees the real client IP instead of the Pluggie endpoint IP; login notifications and IP banning work per client
