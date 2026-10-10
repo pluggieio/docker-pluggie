@@ -1,3 +1,8 @@
+## v0.7.2
+
+- fix: Home Assistant port detection probes /manifest.json instead of /api/ (no more "invalid authentication" notifications in Home Assistant)
+
+
 ## v0.7.1
 
 - 400 page and admin UI link to the step-by-step trusted proxy guide (Home Assistant)
