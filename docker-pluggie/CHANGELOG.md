@@ -1,3 +1,16 @@
+## v0.8.0
+
+- optional client certificates (mTLS): Off / Test / Enforce, one certificate per device, revocable; local access is never affected
+- client certificates can be turned off remotely from your Pluggie account (two-factor authentication required)
+- client certificate status in your Pluggie account; notice when client certificate data is missing
+- account recovery with a one-time code from Pluggie support
+- changes in your Pluggie account (e.g. a new hostname) are applied within seconds, without restarting the app
+- warning when /data is not mounted; client certificates cannot be turned on until it is
+- security: the internal admin API is no longer reachable from outside the container
+- fix: no false interception warning after a hostname change
+- docs: client certificates, account recovery, backups, Docker Compose example
+
+
 ## v0.7.2
 
 - fix: Home Assistant port detection probes /manifest.json instead of /api/ (no more "invalid authentication" notifications in Home Assistant)
