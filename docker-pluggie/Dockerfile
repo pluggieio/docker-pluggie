@@ -97,6 +97,7 @@ ARG BUILD_REF
 ARG BUILD_VERSION
 ARG S6_OVERLAY_VERSION
 ARG BASHIO_VERSION
+ARG NGINX_VERSION
 
 # Container version
 ENV PLUGGIE_VERSION=${BUILD_VERSION}
@@ -118,8 +119,8 @@ SHELL ["/bin/ash", "-o", "pipefail", "-c"]
 # Install runtime dependencies
 RUN set -x \
     && apk add --no-cache \
-        nginx \
-        nginx-mod-http-brotli \
+        nginx~${NGINX_VERSION} \
+        nginx-mod-http-brotli~${NGINX_VERSION} \
         wireguard-tools \
         openresolv \
         openssl \

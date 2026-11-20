@@ -9,6 +9,7 @@ This Docker edition runs the same Pluggie connector as a standalone container, s
 
 
 ## Features
+
 - Zero knowledge about your traffic which is fully encrypted between your device and you (or your clients). Pluggie servers just pass traffic.
 - NO traffic decryption/encryption on Pluggie servers at all; only necessary info such as SNI is required to route traffic.
 - SSL/TLS certificate issuing via Let's Encrypt is done locally inside the container.
